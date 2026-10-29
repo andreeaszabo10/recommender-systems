@@ -38,6 +38,7 @@ def send_items():
             "runtime": float(row['runtime']),
             "vote_count": float(row['vote_count']),
             "vote_average": float(row['vote_average']),
+            "popularity": float(row['popularity']),
         }
         
         # Adaugam request-ul de setare a valorilor pentru item
